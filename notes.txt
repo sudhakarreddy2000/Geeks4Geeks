@@ -1,0 +1,569 @@
+Zoom id : class_operations+ac19@geeksforgeeks.org
+Password:  Gfg@2025
+
+sudhakarreddy2000
+Geeks4Geeks
+
+5th April
+Sudhakar Reddy
+
+MERN:
+Stack: ex: stack of books
+stack of technologies.
+FullStack:
+Front-End + Back-End
+UI Designer
+UI Developer
+Responsive Web Designer
+
+client side coding
+Server side coding
+
+html
+css
+bootstrap
+
+javascript
+react
+
+Nodejs
+Express
+Mongodb
+
+12th April:
+
+Website: website is a collection of webpages. Each webpage provides information in the form of text, images, graphics, animation, hyperlinks etc.
+
+Home page: It is a landing page / first page of a website from where we can connect to an other pages.
+Home page name should be index.html
+
+Browser: Browser is a software/application which is used for loading/visiting websites.
+
+URL:Uniform Resource Locator
+HTTP: Hyper Text Transfer Protocol
+FTP:File Transfer Protocol
+
+Requirement for a website:
+	1. Domain Name Registration
+	2. Hosting / server space
+	3. Designing / Developing
+
+colors:16.7 million colors
+RGB
+R=>255
+G=>255
+B=>255
+
+Fonts:
+images:
+
+
+19th April:
+HTML5 and CSS3
+Hyper Text Markup Language
+
+To create any web application we need to use/write html code
+html is simple, English like code.
+
+html is not case sensitive.
+
+html contains commands.
+html commands are called TAGS
+html tags are 2 types
+	1)Opening Tag
+			ex: <title>
+	2)Closing Tag
+			ex: </title>
+
+HTML files has to be saved as .html
+
+What you required to write html code and to execute it:
+	1)Text editor
+		ex:notepad, Visual Studio Code
+
+	2) Browser
+		ex:Chrome, safari, edge
+
+
+<br> ==>break 
+<hr> ==>horizontal ruler
+
+ATTRIBUTES:
+Attributes are used inside opening tag, which are used to give style little bit for a particular tag.
+<body bgcolor='yellow'>
+
+</body>
+
+Attributes for <hr> tag
+color
+size
+align
+width
+ex:
+<hr color="red" size="20px" width="500px" align="right">
+
+Heading tags:
+6 types of heading tags
+<h1> </h1>
+<h2> </h2>
+<h3> </h3>
+.
+.
+<h6> </h6>
+
+Attributes for headings
+	align="left/center/right"
+
+PARAGRAPH:
+<p> </p>
+Attributes for paragraph tag
+	align="left/center/right"
+
+LIST ITEMS:
+List items are 2 types:
+	1) order list item
+		<ol> </ol>
+	2) unorder list item
+		<ul> </ul>
+
+
+Color for text using inline css:
+---------------------------------------
+
+<h1 style="color:red;"> color </h1>
+
+Inserting images:
+<img>
+<img src="file.jpg/gif/png/svg" />
+Attributes for img tag
+width
+height
+border
+alt
+title
+
+20th April:
+
+Tables:
+Tables are used to organize content.
+table contains rows and columns.
+<table> </table>
+<tr> </tr> ==>table row
+<td> </td> ==>table data
+<th> </th> ==>table head
+
+Hyperlinks:
+=========
+<a href="file.html"> clickme </a>
+a=>anchor
+href=>hyper reference
+
+FORMS:
+==========
+<form> </form>
+<input type="text/password/checkbox/radio/email/color/date/submit/reset/file" />
+
+<select>
+<option></option>
+</select>
+
+<textarea> </textarea>
+
+DIVISION:
+==========
+<div> </div>
+
+html5 tags:
+=========
+<video> </video>
+<audio> </audio>
+<header> </header>
+<footer> </footer>
+<nav> </nav>
+<aside> </aside>
+<article> </article>
+<section> </section>
+
+<iframe> </iframe> ==>used to embed external content like html, maps, youtube etc
+
+CSS3:
+Cascading Style Sheets:
+css properties:
+---------------------
+
+color:red;
+text-align: center;
+font-family: arial;
+background-color: yellow;
+font-size:1.4em;
+
+comments in html:
+	<!-- comments here -->
+
+comments in css:
+	1) single line comment //
+	2) multiline comment /* */
+
+border:1px solid/dotted/dashed red;
+text-decoration:none;
+
+26th April:
+=========
+background-image:url(pic.jpg);
+background-repeat:no-repeat/repeat-x/repeat-y;
+
+Spacing Properties:
+================
+margin:30px; =>it is a space outside of an element
+padding:30px; =>it is a space inside of an element
+
+Selectors:
+===========
+1) Tag / Element Selector
+		tagname{ }  => h1{}
+2) Pseudo selector
+		tag/class/id:hover{}  => a:hover{}
+3) Class Selector
+		.className{ }
+4) Id Selector
+		#idName{ }
+
+
+Divisions:
+========
+<div> </div>
+
+Class Selector:class selector should start with dot(.)
+		.txt{ 
+		color:green;
+			}
+
+	<h2 class="txt"> </h2>
+
+Box Model:
+float:left/right;
+clear:left/right/both;
+
+Flex box model:
+The flexible box layout module (usually referred to as flexbox) is a one-dimensional layout model for distributing space between items and includes numerous alignment capabilities. 
+
+display:flex/none/inline/block/inline-block;
+display:flex;
+justify-content:flex-start/flex-end/center/space-around/space-between;
+
+
+POSITION:
+=========
+position:static/relative/absolute/fixed/sticky;
+top:200px;
+bottom:200px;
+left:200px;
+right:200px;
+
+27th April:
+========
+html
+css
+JavaScript
+	=>loosely typed language
+	=>js is case sensitive
+	=>js is used to write/develop client side apps
+	=>js is used for Interactive applications
+	=>js is used for Dynamic applications
+	
+We can write javascript in 2 ways
+	1) internal js
+	2) external js ==>.js
+
+<script>
+
+</script>
+
+document.write()
+using html tags inside javascript
+
+double quotes should not be there in double quotes
+single quotes should not be there in single quotes
+
+popup messages:
+	alert() ==>used to alert the user
+	prompt() ==>used to take the input value from the user
+	confirm() ==>used for confirmation
+
+VARIABLES:
+Variables are containers to store data values.
+a=10
+b=20
+c=a+b
+
+Variables in js can be defined in 3 ways
+	1) var keyword
+	2) let keyword
+	3) const keyword
+
+	Declaring a variable
+		var uid;
+	Assigning a data value
+		uid="geeks"
+
+Concatination:
+	+
+
+if else statements:
+===============
+marks<=40==>Failed
+syntax:
+	if(condition){
+	statement;
+	}else{
+	statement;
+	}
+
+uid="javascript"==>authorized user / unauthorized user
+
+operators:
+operators are symbols
+1)Arithmatic operator
+	+,-,*,/,%
+2) Assignment operator
+	=
+3) Conditional operator
+	<=,>=,!=,==,===
+4) Logical operators
+	&&(and), ||(or)
+
+#
+if else if condition:
+==============
+marks<=40 ==>Failed
+>40 - <=50 ==>Passed
+>50 - <=60 ==>Second class
+>60 - <=70 ==>First classes
+>70 -<=100==>Distinction
+>100 =>invalid entry
+
+syntax:	
+	if(condition){
+
+	}else if(condition){
+
+	}else if(condition){
+
+	}
+
+=================
+Looping statements:
+
+	for loop
+	while loop
+
+for loop:
+	for(initialization; condition; increment/decrement){
+
+	}
+
+============
+while loop:
+
+let i=1;
+while(i<10){
+	statement;
+	increment
+}
+
+3rd May 25:
+==============
+
+Introduction to ES6 features like let, const, and arrow functions
+Working with functions, objects, and arrays
+Variable types, scoping, and error handling
+
+Arrays:
+=====
+	let student1="Pratap"
+	let student2="Meenal"
+	document.write(student2)
+	
+
+Arrays are used to store multiple values, whereas variable can store only one value.
+
+	let students=['Pratap','Meenal','Swathi','Ajay']
+	document.write(students);
+
+These values will be stored in indexed numbers
+Index starts from 0
+
+document.write(students[2]);
+
+push() method =>used to add item at the end of an array
+pop() method ==>used to remove last item of an array
+
+unshift() method ==>used to add item in the beginning of an array
+shift() method ==>used to remove first from an array
+
+
+Objects:
+======
+	var student1="Rohith"
+	var students=["Rohith","Ajay"]
+
+Objects in JavaScript are collections of key-value pairs, where keys are strings (or symbols) and values can be of any data type, including other objects. They serve as fundamental building blocks for structuring data and modeling real-world entities within JavaScript programs.
+
+	let person={
+		key:value,
+
+	}
+
+	let person={
+		name:'Ajay',
+		place:'Hyderabad',
+		age:22
+	}
+
+	document.write(person.name)
+======
+DOM
+Document Object Model
+
+Dom is a tree like structure, which contains nodes(like leaves).
+What Does the HTML DOM Look Like?
+Imagine your webpage as a tree
+
+The document is the root.
+HTML tags like <html>, <head>, and <body> are branches.
+Attributes, text, and other elements are the leaves.
+Why is DOM Required?
+The DOM is essential because
+
+Dynamic Content Updates: Without reloading the page, the DOM allows content updates (e.g., form validation, AJAX responses).
+User Interaction: It makes your webpage interactive (e.g., responding to button clicks, form submissions).
+Flexibility: Developers can add, modify, or remove elements and styles in real-time.
+Cross-Platform Compatibility: It provides a standard way for scripts to interact with web documents, ensuring browser compatibility.
+How the DOM Works?
+The DOM connects your webpage to JavaScript, allowing you to:
+
+Dom is used to:
+Access elements (like finding an <h1> tag).
+Modify content (like changing the text of a <p> tag).
+React to events (like a button click).
+Create or remove elements dynamically.
+
+getElementById() method:
+
+getElementById() method is used to get data from DOM or used to manipulate data in DOM.
+
+function and methods:
+===================
+Date() function
+=>Date() is a inbuilt function of javascript, which is used to display date etc.
+
+Date methods
+	getHours()
+	getMinutes()
+	getSeconds()
+
+	getDate()
+	getMonth()
+	getFullYear()
+	
+	getDay()
+
+User defined functions:
+
+Function is a block of code, which is used to call at different places of you program. Advantage of any function is re-usability.
+
+Functions in javascript can be created in different ways
+	1) by using function keyword
+		ex: function functionName(){ 
+				}
+
+	2) Arrow function
+		ex: const name=()=>{
+
+				}
+
+function has to be called.
+
+functions with parameters and arguments:
+---------------------------------------------------------
+
+Parameters are names which we give it inside a function
+	function demo(parameter){
+	}
+
+Arguments are values to parameters, which we give it when we call the function.
+ex
+	demo("value")
+
+--------------------------
+Events:
+onclick() event
+onmouseover() event
+onmouseout() event
+onchange() event
+onsubmit() event
+onscroll() event
+etc..
+
+4th May2025
+JavaScript DOM Manipulation & React Basics
+
+Manipulating the DOM with JavaScript
+Handling events and user interactions with JavaScript
+Debugging and troubleshooting JavaScript code
+
+
+onchange event:
+background color
+font size
+etc
+
+onscroll
+onfocus
+onblur
+
+onkeydown
+onkeyup
+
+
+Arrow function:
+	function demo(){
+
+	}
+
+	const demo=()=>{
+
+	}
+
+========
+callback functions:
+
+setInterval()
+setTimeout()
+
+toLocaleTimeString()
+toLocaleDateString()
+
+
+callback hell:
+==========
+Callback hell, also known as the "pyramid of doom," occurs in asynchronous programming when multiple nested callbacks make code difficult to read and maintain. This often happens when dealing with complex asynchronous operations, where one operation depends on the result of the previous one. The nested structure of callbacks creates a deeply indented code block, resembling a pyramid shape, hence the term "pyramid of doom." 
+JavaScript
+
+
+Promises: Promise is an object,
+Promises in JavaScript are objects representing the eventual result of an asynchronous operation. They provide a structured way to handle asynchronous code, improving readability and manageability compared to traditional callback-based approaches. A promise can be in one of three states:
+Pending:
+The initial state, representing that the asynchronous operation is still in progress.
+Fulfilled:
+The operation completed successfully, and the promise now holds the resulting value.
+Rejected:
+The operation failed, and the promise holds a reason for the failure (usually an error).
+
+
+
+
+
+
+
+
