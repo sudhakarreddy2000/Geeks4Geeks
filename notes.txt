@@ -561,6 +561,200 @@ Rejected:
 The operation failed, and the promise holds a reason for the failure (usually an error).
 
 
+10th May:
+REACT:
+=>React is a library of javascript
+=>React is component based 
+=>React uses Virtual DOM==>advanced version of DOM
+=>React is developed and managed by Facebook
+=>React is used to develop Single Page Applicaiton(SPA)
+
+Installing react:
+
+old method
+	1) install nodejs
+New method
+=>create a folder
+=>open that folder in commond prompt
+
+	ex:react
+With vite:
+npm create vite@latest geeksapp
+
+  cd geeksapp
+  npm install
+  npm run dev  ==>to run react application use this command at commond prompt
+
+folder  Structure of app:
+==================
+	myapp
+		node_modules folder
+		public folder
+			vite file
+		src folder
+			assets folder
+			App.css
+			App.jsx
+			index.css
+			main.jsx
+	index.html
+--------------------------
+
+---------------------------------------
+
+->Delete all files and folder from src folder
+->After deleting all files from src folder, CREATE ONE JSX FILE( main.jsx)
+->write react coder
+
+import { createRoot } from 'react-dom/client'
+createRoot(document.getElementById('root')).render(
+<h1>Welcome to React world</h1>
+)
+
+====================
+=>if you try to add more than one jsx element, it gives below error
+Adjacent JSX elements must be wrapped in an enclosing tag. 
+Did you want a JSX fragment <>...</>? 
+
+=>we need wrapper around multiple jsx elements.
+=>Wrapping can be done in 3 ways in react
+	1)Wrapping jsx elements in <div> tag
+			ex>
+			<div>
+				multiple jsx elements
+			</div>
+
+	2) Wrapping jsx elements in [ ]
+		[
+		multiple jsx elements
+		]
+		*we need to put coma(,) after every jsx element
+
+	3) Wrapping jsx elements in fragment <> </>
+		<>
+		multiple jsx elements
+		</>
+===================
+Comments in react:
+		{/* comments here */}
+---------------------------
+Variables in React:
+
+=>Where to declare variables, arrays, objects?
+=>Declare it outside of jsx(react)
+
+=>How can i access a variable?
+=>We need to use expressions
+	=>expression => { }
+=>expressions are used to call variables, objects, functions etc.
+
+
+11th May:
+
+What is the strict mode in React?
+StrictMode is a tool for highlighting potential problems in an application. Like Fragment , StrictMode does not render any visible UI. It activates additional checks and warnings for its descendants. Note: Strict mode checks are run in development mode only; they do not impact the production build.
+
+reportWebVitals:
+Create React App includes a performance relayer that allows you to measure and analyze the performance of your application using different metrics.
+
+To measure any of the supported metrics, you only need to pass a function into the reportWebVitals function in index.js.
+
+How to change port no:
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  server:{port:3000},
+})
+
+
+How to change port no:
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  server:{port:3000},
+})
+============
+
+Date() function
+
+Date methods:
+===========
+	.getHours()
+	.getMinutes()
+	.getSeconds()
+	.getDate()
+	.getMonth()
+	.getFullYear()
+	.getDay()
+	.toLocaleTimeString()
+	.toLocaleDateString()
+
+if else statements in react:
+--------------------------------------
+if(condition){
+statement
+}else{
+
+}
+---------------------
+Using css in react:
+	in html and css, there are 3 ways of writing css:
+	1)inline css
+		ex: <h2 style="color:red"> </h2>
+	2) internal css
+		ex:	<head>
+				<style>
+					h2{ color:red;}
+				</style>
+			</head>
+
+	3) external css
+		we need html files and css separately
+			.css file
+			in html file, head portion should have link
+			<head>
+			<link href="file.css" rel="stylesheet">
+			</head>
+
+
+	if you want to use external css, we need to import css file to react file
+		import './style.css'
+
+
+importing and exporting Data values:
+------------------------------------------------
+=>Define one variable outside of my main file
+=>we will export this data and we will import into main file
+
+=>After that we will create many variables, arrays, objects , and function also ,
+=>we will export and import all this data...
+
+Only one default export allowed per module.
+========================
+next session
+
+
+Components: components are import concepts of react. entire react project revolves around components.
+Components are pieces of code, which will be written out side of main application.
+Components are reusable.
+in Components are like functions in javascript
+
+Components in react are 2 types:
+	1) Function component
+	2) Class component
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
