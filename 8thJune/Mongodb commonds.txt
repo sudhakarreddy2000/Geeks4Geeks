@@ -1,0 +1,20 @@
+Mongodb commonds:
+
+1) show dbs
+		used to show list of available databases
+2) use database_name
+		use to create database if that particular database not 			available. if database available, it will return to that database
+3) db.createCollection("collectionName");
+	it will create a collection inside current database
+4) show collections
+	it will show the list of available collections in current database
+5) db.dropDatabase() 
+	it will delete current database
+6) db.collectionName.drop() 
+	it will delete collection
+7) db.COLLECTION_NAME.insert(document)
+	ex:
+	db.col1.insertOne({name:'Chetan', place:'Mumbai', age:23})
+8) db.collection_name.find()
+	ex:
+	db.col1.find()
